@@ -157,6 +157,7 @@ export default function HotelBillGenerator() {
         </html>
       `)
 
+      printWindow.document.close()
       // Restore the original document title
       document.title = originalTitle
     } else {
